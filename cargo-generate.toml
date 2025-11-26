@@ -1,0 +1,7 @@
+[template]
+cargo_generate_version = ">=0.23.5"
+include = [
+  "README.md",
+  "grust/Cargo.toml",
+  "project.godot",
+]
