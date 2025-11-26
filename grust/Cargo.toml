@@ -1,8 +1,8 @@
 [package]
+authors.workspace = true
+edition.workspace = true
 name = "{{ crate_name }}"
-version = "0.1.0"
-edition = "2024"
-authors = ["{{ authors }}"]
+version.workspace = true
 
 [lib]
 crate-type = ["cdylib"]

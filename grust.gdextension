@@ -4,11 +4,11 @@ compatibility_minimum = 4.5
 reloadable = true
 
 [libraries]
-linux.debug.x86_64 =     "res://grust/target/debug/libgrust.so"
-linux.release.x86_64 =   "res://grust/target/release/libgrust.so"
-windows.debug.x86_64 =   "res://grust/target/debug/grust.dll"
-windows.release.x86_64 = "res://grust/target/release/grust.dll"
-macos.debug =            "res://grust/target/debug/libgrust.dylib"
-macos.release =          "res://grust/target/release/libgrust.dylib"
-macos.debug.arm64 =      "res://grust/target/debug/libgrust.dylib"
-macos.release.arm64 =    "res://grust/target/release/libgrust.dylib"
+linux.debug.x86_64 =     "res://target/debug/lib{{ crate_name }}.so"
+linux.release.x86_64 =   "res://target/release/lib{{ crate_name }}.so"
+windows.debug.x86_64 =   "res://target/debug/{{ crate_name }}.dll"
+windows.release.x86_64 = "res://target/release/{{ crate_name }}.dll"
+macos.debug =            "res://target/debug/lib{{ crate_name }}.dylib"
+macos.release =          "res://target/release/lib{{ crate_name }}.dylib"
+macos.debug.arm64 =      "res://target/debug/lib{{ crate_name }}.dylib"
+macos.release.arm64 =    "res://target/release/lib{{ crate_name }}.dylib"

@@ -4,4 +4,5 @@ include = [
   "README.md",
   "grust/Cargo.toml",
   "project.godot",
+  "grust.gdextension",
 ]

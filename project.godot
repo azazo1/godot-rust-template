@@ -17,6 +17,5 @@ run/main_scene="res://main.tscn"
 config/features=PackedStringArray("4.5", "Mobile")
 config/icon="uid://dl0701ikiyhue"
 
-[rendering]
-
-renderer/rendering_method="mobile"
+; [rendering]
+; renderer/rendering_method="mobile"
